@@ -43,19 +43,6 @@ export default function HeroSection() {
           </a>
         </div>
 
-        {/* Stats */}
-        <div className="mt-16 grid grid-cols-3 gap-6 max-w-md mx-auto">
-          {[
-            { value: "2+", label: "שנות GenAI" },
-            { value: "5+", label: "תעודות ענן" },
-            { value: "RAG", label: "מומחיות" },
-          ].map((s) => (
-            <div key={s.label} className="text-center">
-              <div className="text-2xl font-bold text-blue-400">{s.value}</div>
-              <div className="text-sm text-gray-500 mt-1">{s.label}</div>
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* Scroll indicator */}
